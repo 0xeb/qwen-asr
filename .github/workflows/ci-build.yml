@@ -29,10 +29,6 @@ jobs:
             cmake_extra: -DCMAKE_TOOLCHAIN_FILE=cmake/toolchain-aarch64-linux.cmake
 
           # --- macOS ---
-          - name: macOS x64
-            os: macos-13
-            blas: ON
-
           - name: macOS arm64
             os: macos-14
             blas: ON
